@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9D39EAE1F9493A10011F4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39EAD1F9493A10011F4CD /* main.m */; };
+		A9D39EB11F9493A10011F4CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39EB01F9493A10011F4CD /* AppDelegate.m */; };
+		A9D39EB41F9493A10011F4CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39EB31F9493A10011F4CD /* ViewController.m */; };
+		A9D39EB71F9493A10011F4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D39EB51F9493A10011F4CD /* Main.storyboard */; };
+		A9D39EB91F9493A10011F4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D39EB81F9493A10011F4CD /* Assets.xcassets */; };
+		A9D39EBC1F9493A10011F4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D39EBA1F9493A10011F4CD /* LaunchScreen.storyboard */; };
+		A9D39EC71F9493A10011F4CD /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39EC61F9493A10011F4CD /* _______Tests.m */; };
+		A9D39ED21F9493A10011F4CD /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39ED11F9493A10011F4CD /* _______UITests.m */; };
+		A9D39F161F94B40B0011F4CD /* FCCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39F151F94B40B0011F4CD /* FCCalendarViewCell.m */; };
+		A9D39F1A1F94B70C0011F4CD /* FCCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39F191F94B70C0011F4CD /* FCCalendarViewController.m */; };
+		A9D39F1D1F95B5FF0011F4CD /* FCCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39F1C1F95B5FF0011F4CD /* FCCalendarModel.m */; };
+		A9D39F201F95B6FE0011F4CD /* FCChineseCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39F1F1F95B6FE0011F4CD /* FCChineseCalendarManager.m */; };
+		A9D39F231F95B8120011F4CD /* FCCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39F221F95B8120011F4CD /* FCCalendarManager.m */; };
+		A9D39F291F9607330011F4CD /* FCCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39F281F9607330011F4CD /* FCCoverView.m */; };
+		A9D39F2C1F960E7A0011F4CD /* FCCalendarPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D39F2B1F960E7A0011F4CD /* FCCalendarPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9D39EC31F9493A10011F4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D39EA11F9493A10011F4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D39EA81F9493A10011F4CD;
+			remoteInfo = "自定义日历控件";
+		};
+		A9D39ECE1F9493A10011F4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D39EA11F9493A10011F4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D39EA81F9493A10011F4CD;
+			remoteInfo = "自定义日历控件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9D39EA91F9493A10011F4CD /* 自定义日历控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义日历控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D39EAD1F9493A10011F4CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9D39EAF1F9493A10011F4CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9D39EB01F9493A10011F4CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9D39EB21F9493A10011F4CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9D39EB31F9493A10011F4CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9D39EB61F9493A10011F4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9D39EB81F9493A10011F4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9D39EBB1F9493A10011F4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9D39EBD1F9493A10011F4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D39EC21F9493A10011F4CD /* 自定义日历控件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义日历控件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D39EC61F9493A10011F4CD /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		A9D39EC81F9493A10011F4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D39ECD1F9493A10011F4CD /* 自定义日历控件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义日历控件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D39ED11F9493A10011F4CD /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		A9D39ED31F9493A10011F4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D39F141F94B40B0011F4CD /* FCCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCalendarViewCell.h; sourceTree = "<group>"; };
+		A9D39F151F94B40B0011F4CD /* FCCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCalendarViewCell.m; sourceTree = "<group>"; };
+		A9D39F171F94B51C0011F4CD /* FCCalendarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCalendarDefine.h; sourceTree = "<group>"; };
+		A9D39F181F94B70C0011F4CD /* FCCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCalendarViewController.h; sourceTree = "<group>"; };
+		A9D39F191F94B70C0011F4CD /* FCCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCalendarViewController.m; sourceTree = "<group>"; };
+		A9D39F1B1F95B5FF0011F4CD /* FCCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCalendarModel.h; sourceTree = "<group>"; };
+		A9D39F1C1F95B5FF0011F4CD /* FCCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCalendarModel.m; sourceTree = "<group>"; };
+		A9D39F1E1F95B6FE0011F4CD /* FCChineseCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCChineseCalendarManager.h; sourceTree = "<group>"; };
+		A9D39F1F1F95B6FE0011F4CD /* FCChineseCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCChineseCalendarManager.m; sourceTree = "<group>"; };
+		A9D39F211F95B8120011F4CD /* FCCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCalendarManager.h; sourceTree = "<group>"; };
+		A9D39F221F95B8120011F4CD /* FCCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCalendarManager.m; sourceTree = "<group>"; };
+		A9D39F271F9607330011F4CD /* FCCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCoverView.h; sourceTree = "<group>"; };
+		A9D39F281F9607330011F4CD /* FCCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCoverView.m; sourceTree = "<group>"; };
+		A9D39F2A1F960E7A0011F4CD /* FCCalendarPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCCalendarPickerView.h; sourceTree = "<group>"; };
+		A9D39F2B1F960E7A0011F4CD /* FCCalendarPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCCalendarPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D39EA61F9493A10011F4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D39EBF1F9493A10011F4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D39ECA1F9493A10011F4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D39EA01F9493A10011F4CD = {
+			isa = PBXGroup;
+			children = (
+				A9D39F131F94B3C70011F4CD /* FCCalendar */,
+				A9D39EAB1F9493A10011F4CD /* 自定义日历控件 */,
+				A9D39EC51F9493A10011F4CD /* 自定义日历控件Tests */,
+				A9D39ED01F9493A10011F4CD /* 自定义日历控件UITests */,
+				A9D39EAA1F9493A10011F4CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D39EAA1F9493A10011F4CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D39EA91F9493A10011F4CD /* 自定义日历控件.app */,
+				A9D39EC21F9493A10011F4CD /* 自定义日历控件Tests.xctest */,
+				A9D39ECD1F9493A10011F4CD /* 自定义日历控件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D39EAB1F9493A10011F4CD /* 自定义日历控件 */ = {
+			isa = PBXGroup;
+			children = (
+				A9D39EAF1F9493A10011F4CD /* AppDelegate.h */,
+				A9D39EB01F9493A10011F4CD /* AppDelegate.m */,
+				A9D39EB21F9493A10011F4CD /* ViewController.h */,
+				A9D39EB31F9493A10011F4CD /* ViewController.m */,
+				A9D39EB51F9493A10011F4CD /* Main.storyboard */,
+				A9D39EB81F9493A10011F4CD /* Assets.xcassets */,
+				A9D39EBA1F9493A10011F4CD /* LaunchScreen.storyboard */,
+				A9D39EBD1F9493A10011F4CD /* Info.plist */,
+				A9D39EAC1F9493A10011F4CD /* Supporting Files */,
+			);
+			path = "自定义日历控件";
+			sourceTree = "<group>";
+		};
+		A9D39EAC1F9493A10011F4CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D39EAD1F9493A10011F4CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9D39EC51F9493A10011F4CD /* 自定义日历控件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D39EC61F9493A10011F4CD /* _______Tests.m */,
+				A9D39EC81F9493A10011F4CD /* Info.plist */,
+			);
+			path = "自定义日历控件Tests";
+			sourceTree = "<group>";
+		};
+		A9D39ED01F9493A10011F4CD /* 自定义日历控件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D39ED11F9493A10011F4CD /* _______UITests.m */,
+				A9D39ED31F9493A10011F4CD /* Info.plist */,
+			);
+			path = "自定义日历控件UITests";
+			sourceTree = "<group>";
+		};
+		A9D39F131F94B3C70011F4CD /* FCCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				A9D39F1B1F95B5FF0011F4CD /* FCCalendarModel.h */,
+				A9D39F1C1F95B5FF0011F4CD /* FCCalendarModel.m */,
+				A9D39F171F94B51C0011F4CD /* FCCalendarDefine.h */,
+				A9D39F141F94B40B0011F4CD /* FCCalendarViewCell.h */,
+				A9D39F151F94B40B0011F4CD /* FCCalendarViewCell.m */,
+				A9D39F181F94B70C0011F4CD /* FCCalendarViewController.h */,
+				A9D39F191F94B70C0011F4CD /* FCCalendarViewController.m */,
+				A9D39F1E1F95B6FE0011F4CD /* FCChineseCalendarManager.h */,
+				A9D39F1F1F95B6FE0011F4CD /* FCChineseCalendarManager.m */,
+				A9D39F211F95B8120011F4CD /* FCCalendarManager.h */,
+				A9D39F221F95B8120011F4CD /* FCCalendarManager.m */,
+				A9D39F271F9607330011F4CD /* FCCoverView.h */,
+				A9D39F281F9607330011F4CD /* FCCoverView.m */,
+				A9D39F2A1F960E7A0011F4CD /* FCCalendarPickerView.h */,
+				A9D39F2B1F960E7A0011F4CD /* FCCalendarPickerView.m */,
+			);
+			name = FCCalendar;
+			path = "自定义日历控件/FCCalendar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D39EA81F9493A10011F4CD /* 自定义日历控件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D39ED61F9493A10011F4CD /* Build configuration list for PBXNativeTarget "自定义日历控件" */;
+			buildPhases = (
+				A9D39EA51F9493A10011F4CD /* Sources */,
+				A9D39EA61F9493A10011F4CD /* Frameworks */,
+				A9D39EA71F9493A10011F4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义日历控件";
+			productName = "自定义日历控件";
+			productReference = A9D39EA91F9493A10011F4CD /* 自定义日历控件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9D39EC11F9493A10011F4CD /* 自定义日历控件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D39ED91F9493A10011F4CD /* Build configuration list for PBXNativeTarget "自定义日历控件Tests" */;
+			buildPhases = (
+				A9D39EBE1F9493A10011F4CD /* Sources */,
+				A9D39EBF1F9493A10011F4CD /* Frameworks */,
+				A9D39EC01F9493A10011F4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D39EC41F9493A10011F4CD /* PBXTargetDependency */,
+			);
+			name = "自定义日历控件Tests";
+			productName = "自定义日历控件Tests";
+			productReference = A9D39EC21F9493A10011F4CD /* 自定义日历控件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9D39ECC1F9493A10011F4CD /* 自定义日历控件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D39EDC1F9493A10011F4CD /* Build configuration list for PBXNativeTarget "自定义日历控件UITests" */;
+			buildPhases = (
+				A9D39EC91F9493A10011F4CD /* Sources */,
+				A9D39ECA1F9493A10011F4CD /* Frameworks */,
+				A9D39ECB1F9493A10011F4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D39ECF1F9493A10011F4CD /* PBXTargetDependency */,
+			);
+			name = "自定义日历控件UITests";
+			productName = "自定义日历控件UITests";
+			productReference = A9D39ECD1F9493A10011F4CD /* 自定义日历控件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D39EA11F9493A10011F4CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = VMC;
+				TargetAttributes = {
+					A9D39EA81F9493A10011F4CD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					A9D39EC11F9493A10011F4CD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VB2E7P2EE6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9D39EA81F9493A10011F4CD;
+					};
+					A9D39ECC1F9493A10011F4CD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VB2E7P2EE6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9D39EA81F9493A10011F4CD;
+					};
+				};
+			};
+			buildConfigurationList = A9D39EA41F9493A10011F4CD /* Build configuration list for PBXProject "自定义日历控件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D39EA01F9493A10011F4CD;
+			productRefGroup = A9D39EAA1F9493A10011F4CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D39EA81F9493A10011F4CD /* 自定义日历控件 */,
+				A9D39EC11F9493A10011F4CD /* 自定义日历控件Tests */,
+				A9D39ECC1F9493A10011F4CD /* 自定义日历控件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D39EA71F9493A10011F4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D39EBC1F9493A10011F4CD /* LaunchScreen.storyboard in Resources */,
+				A9D39EB91F9493A10011F4CD /* Assets.xcassets in Resources */,
+				A9D39EB71F9493A10011F4CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D39EC01F9493A10011F4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D39ECB1F9493A10011F4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D39EA51F9493A10011F4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D39F231F95B8120011F4CD /* FCCalendarManager.m in Sources */,
+				A9D39EB41F9493A10011F4CD /* ViewController.m in Sources */,
+				A9D39EB11F9493A10011F4CD /* AppDelegate.m in Sources */,
+				A9D39F1A1F94B70C0011F4CD /* FCCalendarViewController.m in Sources */,
+				A9D39EAE1F9493A10011F4CD /* main.m in Sources */,
+				A9D39F1D1F95B5FF0011F4CD /* FCCalendarModel.m in Sources */,
+				A9D39F201F95B6FE0011F4CD /* FCChineseCalendarManager.m in Sources */,
+				A9D39F2C1F960E7A0011F4CD /* FCCalendarPickerView.m in Sources */,
+				A9D39F161F94B40B0011F4CD /* FCCalendarViewCell.m in Sources */,
+				A9D39F291F9607330011F4CD /* FCCoverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D39EBE1F9493A10011F4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D39EC71F9493A10011F4CD /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D39EC91F9493A10011F4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D39ED21F9493A10011F4CD /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9D39EC41F9493A10011F4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D39EA81F9493A10011F4CD /* 自定义日历控件 */;
+			targetProxy = A9D39EC31F9493A10011F4CD /* PBXContainerItemProxy */;
+		};
+		A9D39ECF1F9493A10011F4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D39EA81F9493A10011F4CD /* 自定义日历控件 */;
+			targetProxy = A9D39ECE1F9493A10011F4CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9D39EB51F9493A10011F4CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D39EB61F9493A10011F4CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D39EBA1F9493A10011F4CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D39EBB1F9493A10011F4CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D39ED41F9493A10011F4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9D39ED51F9493A10011F4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D39ED71F9493A10011F4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "自定义日历控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arkenvmc.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9D39ED81F9493A10011F4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "自定义日历控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arkenvmc.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9D39EDA1F9493A10011F4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VB2E7P2EE6;
+				INFOPLIST_FILE = "自定义日历控件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arkenvmc.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义日历控件.app/自定义日历控件";
+			};
+			name = Debug;
+		};
+		A9D39EDB1F9493A10011F4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VB2E7P2EE6;
+				INFOPLIST_FILE = "自定义日历控件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arkenvmc.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义日历控件.app/自定义日历控件";
+			};
+			name = Release;
+		};
+		A9D39EDD1F9493A10011F4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VB2E7P2EE6;
+				INFOPLIST_FILE = "自定义日历控件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arkenvmc.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义日历控件";
+			};
+			name = Debug;
+		};
+		A9D39EDE1F9493A10011F4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VB2E7P2EE6;
+				INFOPLIST_FILE = "自定义日历控件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arkenvmc.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义日历控件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D39EA41F9493A10011F4CD /* Build configuration list for PBXProject "自定义日历控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D39ED41F9493A10011F4CD /* Debug */,
+				A9D39ED51F9493A10011F4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D39ED61F9493A10011F4CD /* Build configuration list for PBXNativeTarget "自定义日历控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D39ED71F9493A10011F4CD /* Debug */,
+				A9D39ED81F9493A10011F4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D39ED91F9493A10011F4CD /* Build configuration list for PBXNativeTarget "自定义日历控件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D39EDA1F9493A10011F4CD /* Debug */,
+				A9D39EDB1F9493A10011F4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D39EDC1F9493A10011F4CD /* Build configuration list for PBXNativeTarget "自定义日历控件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D39EDD1F9493A10011F4CD /* Debug */,
+				A9D39EDE1F9493A10011F4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D39EA11F9493A10011F4CD /* Project object */;
+}
